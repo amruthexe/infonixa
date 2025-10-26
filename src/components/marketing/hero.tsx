@@ -74,26 +74,30 @@ const Hero = () => {
         </p>
       </Container>
 
-      <Container delay={0.25} className="z-20">
-        <div className="flex items-center justify-center mt-6 gap-x-4 flex-wrap">
-          {/* Start Free Trial Button */}
-          <Link href="#" className="flex items-center gap-2 group">
-           <Button size="lg"> Start Free Trial <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" /> </Button>
-          </Link>
+   <Container delay={0.25} className="z-20">
+  <div className="flex flex-col sm:flex-row items-center justify-center mt-6 gap-4 w-full">
+    {/* Start Free Trial Button */}
+    <Link href="#" className="w-full sm:w-auto flex justify-center">
+      <Button size="lg" className="w-full sm:w-auto">
+        Start Free Trial
+        <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
+      </Button>
+    </Link>
 
-          {/* Request a Quote Button */}
-          <Link href="#" className="flex items-center gap-2 group">
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-blue-500 hover: text-white hover:bg-blue-500text-white transition-all"
-            >
-              Request a Quote
-              <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
-            </Button>
-          </Link>
-        </div>
-      </Container>
+    {/* Request a Quote Button */}
+    <Link href="#" className="w-full sm:w-auto flex justify-center">
+      <Button
+        size="lg"
+        variant="outline"
+        className="w-full sm:w-auto border-blue-500 hover:bg-blue-500 hover:text-black transition-all duration-300"
+      >
+        Request a Quote
+        <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
+      </Button>
+    </Link>
+  </div>
+</Container>
+
 
                     <Container delay={0.3} className="relative">
                         <div className="relative rounded-xl lg:rounded-[32px] border border-border p-2 backdrop-blur-lg mt-10 max-w-6xl mx-auto">
