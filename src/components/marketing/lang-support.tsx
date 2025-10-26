@@ -8,7 +8,7 @@ const LanguageSupport = () => {
             <Container>
                 <div className="flex flex-col items-center justify-center w-full max-w-3xl mx-auto text-center">
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mb-6">
-                        Instantly translate your content into 60+ <span className="font-subheading italic text-blue-500">languages</span>
+                       Apps, Websites, and Automation — 60+ <span className="font-subheading italic text-blue-500"> Now in Multiple Languages</span>
                     </h2>
                 </div>
             </Container>

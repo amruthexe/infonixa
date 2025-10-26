@@ -9,9 +9,11 @@ import Features from "@/components/marketing/features";
 import { FeaturesSectionGlobe } from "@/components/marketing/FeaturesSectionGlobe";
 import Hero from "@/components/marketing/hero";
 import Industries from "@/components/marketing/Industries";
+import InfonixaInfoSection from "@/components/marketing/InfonixaInfoSection";
 import Integration from "@/components/marketing/integration";
 import LanguageSupport from "@/components/marketing/lang-support";
 import Pricing from "@/components/marketing/pricing";
+import ProjectsShowcase from "@/components/marketing/ProjectsShowcase";
 import Stats from "@/components/marketing/stats";
 
 const HomePage = () => {
@@ -19,6 +21,7 @@ const HomePage = () => {
         <Wrapper className="py-20 relative">
             <Hero />
             <Companies />
+            <InfonixaInfoSection/>
             <Features />
             <Analysis />
             <Stats/>
@@ -29,6 +32,7 @@ const HomePage = () => {
             <Pricing />
             <LanguageSupport />
              <Integration />
+             <ProjectsShowcase/>
              
             <ContactForm/>
             <FAQSection/>

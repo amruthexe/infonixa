@@ -17,6 +17,9 @@ const NotFoundPage = () => {
             <Wrapper>
                 <Container className="flex flex-col items-center justify-center mx-auto py-16">
                     <div className="flex items-center justify-center h-full flex-col">
+                          <h1 className="text-3xl md:text-5xl font-bold mt-5 my-4">
+                            Infonixa
+                        </h1>
                         <span className="text-sm px-3.5 py-1 rounded-md bg-gradient-to-br from-sky-400 to-blue-600 text-neutral-50 custom-shadow">
                             404
                         </span>

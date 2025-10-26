@@ -10,11 +10,11 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { label: "Year in Business", value: 7, suffix: "+" },
+  { label: "Year in Business", value: 3, suffix: "+" },
   { label: "Team Members", value: 8, suffix: "+" },
-  { label: "Happy Clients", value: 58, suffix: "+" },
-  { label: "Projects Done", value: 78, suffix: "+" },
-  { label: "Hours Worked", value: 103000, suffix: "k" },
+  { label: "Happy Clients", value: 12, suffix: "+" },
+  { label: "Projects Done", value: 25, suffix: "+" },
+  { label: "Hours Worked", value: 7300, suffix: "k" },
   { label: "Support Available", value: "24/5" },
 ];
 
@@ -80,3 +80,5 @@ const Stats = () => {
 };
 
 export default Stats;
+
+//Numbers That Speak for Our Expertise
