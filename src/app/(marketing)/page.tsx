@@ -1,0 +1,40 @@
+import Wrapper from "@/components/global/wrapper";
+import Analysis from "@/components/marketing/analysis";
+import AutomationSection from "@/components/marketing/AutomationSection";
+import Companies from "@/components/marketing/companies";
+import ContactForm from "@/components/marketing/ContactForm";
+import CTA from "@/components/marketing/cta";
+import FAQSection from "@/components/marketing/FAQSection";
+import Features from "@/components/marketing/features";
+import { FeaturesSectionGlobe } from "@/components/marketing/FeaturesSectionGlobe";
+import Hero from "@/components/marketing/hero";
+import Industries from "@/components/marketing/Industries";
+import Integration from "@/components/marketing/integration";
+import LanguageSupport from "@/components/marketing/lang-support";
+import Pricing from "@/components/marketing/pricing";
+import Stats from "@/components/marketing/stats";
+
+const HomePage = () => {
+    return (
+        <Wrapper className="py-20 relative">
+            <Hero />
+            <Companies />
+            <Features />
+            <Analysis />
+            <Stats/>
+            <Industries/>
+            {/* <FeaturesSectionGlobe/> */}
+           
+            <AutomationSection/>
+            <Pricing />
+            <LanguageSupport />
+             <Integration />
+             
+            <ContactForm/>
+            <FAQSection/>
+            <CTA />
+        </Wrapper>
+    )
+};
+
+export default HomePage
