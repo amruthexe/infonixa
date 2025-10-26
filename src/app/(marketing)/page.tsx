@@ -21,7 +21,7 @@ const HomePage = () => {
         <Wrapper className="py-20 relative">
             <Hero />
             <Companies />
-            <InfonixaInfoSection/>
+           
             <Features />
             <Analysis />
             <Stats/>
@@ -36,6 +36,7 @@ const HomePage = () => {
              
             <ContactForm/>
             <FAQSection/>
+             <InfonixaInfoSection/>
             <CTA />
         </Wrapper>
     )
